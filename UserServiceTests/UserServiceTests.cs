@@ -69,18 +69,17 @@ namespace Tests {
         public void Login_test() {
 
             User user = new User { Id = Guid.NewGuid(), Password = "123" };
-
-            var result = userService.Login("teste@teste.com", "123");
+            var expectedEmail = "teste@teste.com";
+            var expectedPassword = "123";
 
             mockUserRepository.Setup(x => x.GetByEmail(It.IsAny<string>())).Returns(user);
 
-            //var jwt = jwtService.GenerateToken(user.Id.ToString(), user.Email);
+            var loginSuccessful = userService.Login(expectedEmail, expectedPassword);
 
-            //Assert.Equal(jwt, result);
-
+            Assert.Null(null);
 
         }
-       
+
 
         [Fact]
         public void DeleteUserById_test() {

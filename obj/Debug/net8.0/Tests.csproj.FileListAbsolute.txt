@@ -118,3 +118,4 @@ C:\Users\Maurício Lourenço\Source\Repos\Tests\obj\Debug\net8.0\refint\Tests.dl
 C:\Users\Maurício Lourenço\Source\Repos\Tests\obj\Debug\net8.0\Tests.pdb
 C:\Users\Maurício Lourenço\Source\Repos\Tests\obj\Debug\net8.0\Tests.genruntimeconfig.cache
 C:\Users\Maurício Lourenço\Source\Repos\Tests\obj\Debug\net8.0\ref\Tests.dll
+C:\Users\Maurício Lourenço\Source\Repos\Tests\obj\Debug\net8.0\Tests.sourcelink.json
